@@ -311,7 +311,6 @@ figure figcaption {
 #fh5co-hero .flexslider .slides {
   position: relative;
   overflow: hidden;
-  background-color: #92a5bc;
 
 }
 #fh5co-hero .flexslider .slides .overlay {
@@ -321,7 +320,6 @@ figure figcaption {
   left: 0;
   right: 0;
   content: '';
-  background: rgba(0, 0, 0, 0.3);
 }
 #fh5co-hero .flexslider .slides li {
   background-repeat: no-repeat;
@@ -364,7 +362,7 @@ figure figcaption {
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
-  vertical-align: bottom;
+  vertical-align: middle;
   min-height: 700px;
   padding: 2em;
 }
@@ -399,6 +397,7 @@ figure figcaption {
   font-weight: 300;
 
 }
+
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 a {
   color: rgba(34, 136, 150, 0.8);
   border-bottom: 1px solid rgba(34, 136, 150, 0.7);
